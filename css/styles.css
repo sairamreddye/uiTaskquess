@@ -1,0 +1,256 @@
+body{
+    background-image: linear-gradient(to right top, #6fe46a, #00dda3, #00d0cd, #00bfe0, #57acda);
+    /* background-color: bisque; */
+}
+.container-fluid.header-color{
+    background-color: #cc0000;
+    height: 25px;
+    width: 100%;
+}
+.container.adjust-heading {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.container.adjust-heading h1{
+    font-family: 'Indie Flower', cursive;
+    text-transform: uppercase;
+}
+
+
+.container.adjust-heading h1.result-text {
+    font-size: 64px;
+}
+
+.container.adjust-heading.icons {
+    margin-top: 80px;
+}
+
+/* .col-md-2.icon-adjust i {
+    font-size: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    background-color: #bbb;
+    border-radius: 50%;
+} */
+.dot {
+    height: 185px;
+    width: 185px;
+    background-color: #ffff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+}
+
+.align-adjust {
+    padding-left: 15px;
+    text-align: center;
+}
+
+.align-adjust i {
+    font-size: 52px;
+    color: #cc0000 ;
+}
+
+.align-adjust p.icons-text {
+    font-size: 22px;
+    margin-top: 13px;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    color: #cc0000 ;
+}
+
+.col-md-2.icon-adjust {
+    margin-right: 40px;
+}
+
+.container.adjust-heading.slider {
+    margin-top: 66px;
+}
+
+.parent-background-slider {
+    border-radius: 25px;
+    padding: 8px;
+    width: 100%;
+    height: 36px;
+    background-color: #ffff;
+    opacity: 0.6;
+}
+
+.myrange {  
+    -webkit-appearance: none;  
+    background-color: #cc0000;
+    height: 18px;
+    overflow: visible;
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
+    z-index: 1;
+  }  
+  
+  .myrange::-webkit-slider-thumb {  
+    -webkit-appearance: none;  
+    background: #4CAF50;
+    box-shadow: 1px 1px 8px pink;  
+    width: 15px;  
+    height: 30px;
+    position: relative;
+    z-index: 100;
+  }
+
+  input[type=range]:focus {
+    outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+  }
+
+  .button-tryagain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+button.custom-button {
+    border: #ffff;
+    width: 225px;
+    height: 69px;
+    border-radius: 38px;
+    font-size: 22px;
+    opacity: 0.5;
+    background-color: #cccc;
+    border: 1px solid #ffff;
+    text-transform: uppercase;
+}
+
+button.custom-button:focus{
+    outline: none;
+}
+
+table.table {
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffff;
+    font-weight: bold;
+}
+.table td.slider-data-adjust {
+    border-top: none;
+}
+@media only screen and (max-width : 991px) {
+    .container.adjust-heading h1.result-text {
+        font-size: 40px;
+    }
+
+    .dot{
+    height: 120px;
+    width: 120px;
+    }
+
+    .align-adjust p.icons-text {
+        font-size: 14px;
+    }
+
+    .align-adjust i {
+        font-size: 30px;
+    }
+
+    .align-adjust {
+        padding-left: 0px;
+    }
+
+    button.custom-button {
+        width: 160px;
+        height: 48px;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width : 767px) {
+    .dot{
+        height: 80px;
+        width: 80px;
+        }
+        .col-md-2.icon-adjust {
+            margin-right: 0px;
+        }
+        .align-adjust p.icons-text {
+            font-size: 8px;
+            margin-top: 5px;
+        }
+        .align-adjust i {
+            font-size: 20px;
+        }
+        table.table {
+            font-size: 20px;
+        }
+}
+
+@media only screen and (max-width : 320px) {
+    .dot {
+        height: 44px;
+        width: 44px;
+    }
+    .col-md-2.icon-adjust {
+        margin-right: -20px;
+    }
+        .align-adjust p.icons-text {
+            font-size: 8px;
+            margin-top: 5px;
+        }
+        .align-adjust i {
+            font-size: 10px;
+        }
+        .align-adjust p.icons-text {
+            font-size: 6px;
+            margin-top: -2px;
+        }
+        .container.adjust-heading h1.result-text {
+            font-size: 20px;
+        }
+        button.custom-button {
+            width: 120px;
+            height: 42px;
+            font-size: 12px;
+        }
+        table.table {
+            font-size: 10px;
+        }
+}
+
+@media only screen and (max-width : 424px) {
+    .dot {
+        height: 58px;
+        width: 58px;
+    }
+    .col-md-2.icon-adjust {
+        margin-right: -20px;
+    }
+    .align-adjust p.icons-text {
+        font-size: 9px;
+        margin-top: 0px;
+    }
+    .align-adjust i {
+        font-size: 15px;
+    }
+        .align-adjust p.icons-text {
+            font-size: 6px;
+            margin-top: -2px;
+        }
+        .container.adjust-heading h1.result-text {
+            font-size: 20px;
+        }
+        button.custom-button {
+            width: 116px;
+            height: 30px;
+            font-size: 10px;
+        }
+        table.table {
+            font-size: 12px;
+        }
+}
